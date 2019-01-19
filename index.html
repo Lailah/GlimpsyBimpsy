@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>New Moon Library</title>
+    <meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <h1>Our<a href="#">Library</a></h1>
+            </div>
+            <nav>
+                <ul class="lavaLampWithImage" id="lava_menu">
+                    <li class="current"><a href="index.html">home</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="portfolio.html">our books</a></li>
+                    <li><a href="blog.html">news</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="site_content">
+            <div id="sidebar_container">
+                <div class="gallery">
+                    <ul class="images">
+                        <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+                        <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <h1>Welcome to New Moon Library</h1>
+                <p>This is a list of books in town, that are available for borrowing, renting or give away. Please, check our news to see what's coming to the shelves, or browse the gallery to find a read you like. If you have any suggestions or you have
+                    material you'd like to see in the library please use the contact form in our page.</p>
+                <h2>Browser Compatibility</h2>
+                <p>This website has been tested in the following browsers & systems:</p>
+                <ul>
+                    <li>Fedora Linux 29 KDE</li>
+                    <li>Windows 10</li>
+                    <li>Firefox 64</li>
+                    <li>Chrome 71</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p><a href="index.html">home</a> | <a href="about.html">about us</a> | <a href="portfolio.html">our books</a> | <a href="blog.html">news</a> | <a href="contact.php">contact</a></p>
+            <p>&copy; 2019 New Moon Library | Images by <a href="http://www.fotogrph.com">Fotogrph</a> | <a href="https://crossingtheair.wordpress.com">Designed & Maintained by Silvia Sánchez</a> | <a href="http://www.css3templates.co.uk">Template from css3templates</a></p>
+        </footer>
+    </div>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="js/image_fade.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#lava_menu").lavaLamp({
+                fx: "backout",
+                speed: 700
+            });
+        });
+    </script>
+</body>
+
+</html>
