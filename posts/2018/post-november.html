@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>New Moon Library</title>
+    <meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+    <!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="../../js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <h1>Our<a href="#">Library</a></h1>
+            </div>
+            <nav>
+                <ul class="lavaLampWithImage" id="lava_menu">
+                    <li><a href="../../index.html">home</a></li>
+                    <li><a href="../../about.html">about us</a></li>
+                    <li class="current"><a href="../../portfolio.html">our books</a></li>
+                    <li><a href="../../blog.html">news</a></li>
+                    <li><a href="../../contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="site_content">
+            <div id="sidebar_container">
+                <div id="gallery">
+                    <ul class="images">
+                        <li class="show"><img width="450" height="450" src="../../images/1.jpg" alt="photo_one" /></li>
+                        <li><img width="450" height="450" src="../../images/3.jpg" alt="photo_three" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <h1>New books in Edinburgh</h1>
+                <p>We're happy to announce we have some new sharers and books in Auld Reekie.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                <p></p>
+            </div>
+        </div>
+        <footer>
+            <p><a href="../../index.html">home</a> | <a href="../../about.html">about us</a> | <a href="../../portfolio.html">our books</a> | <a href="../../blog.html">news</a> | <a href="../../contact.html">contact</a></p>
+            <p>&copy; 2019 New Moon Library | Images by <a href="http://www.fotogrph.com">Fotogrph</a> | <a href="https://crossingtheair.wordpress.com">Designed & Maintained by Silvia Sánchez</a> | <a href="http://www.css3templates.co.uk">template from css3templates</a></p>
+        </footer>
+    </div>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="../../js/image_fade.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#lava_menu").lavaLamp({
+                fx: "backout",
+                speed: 700
+            });
+        });
+    </script>
+</body>
+
+</html>
